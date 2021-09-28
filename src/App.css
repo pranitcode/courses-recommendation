@@ -1,0 +1,132 @@
+.ButtonBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 2rem auto;
+}
+.seemore {
+  padding:3px 5px;
+  border:1px solid white;
+  width: 88px;
+  background:black;
+  text-align:center;
+}
+.seemore a {
+  text-decoration:none;
+  font-size: 12px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color:black;
+  border:11px solid black;
+border-radius:15px;
+  padding:25px;
+  margin: 22px;
+  
+  justify-content:center;
+  cursor:pointer;
+  color: aliceblue;
+}
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:20px;
+}
+
+button {
+  margin-top:2rem;
+  background-color:white;
+  outline: none;
+  width: 14.6rem;
+
+  padding: 0.7rem 3rem 0.7rem 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 19px;
+  
+  border: 1px solid black;
+
+  }
+
+.mycard {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+ }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    border:1px solid grey;
+    border: radius 5px;
+    padding:11px;
+    margin:11px;
+    justify-content:center;
+    cursor:pointer;
+    color: aliceblue;
+  }
+  .mycard {
+    margin: 0 auto;
+    width: 320px;
+    height: 300px;
+   }
+   .seemore {
+    padding:2px 3px;
+    border:1px solid white;
+    width: 66px;
+    background:black;
+    text-align:center;
+  }
+  .seemore a {
+    text-decoration:none;
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue;
+  }
+  .card-list {
+    /* width: 85vw; */
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-gap: 11px;
+  }
+
+  button {
+    margin-top:2rem;
+    background-color: white;
+    outline: none;
+    width: 4.6rem;
+    border: 1px solid black;
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+    }
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+
+body {
+    margin:0;
+    padding: 0;
+     /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+     font-family:'Poppins', sans-serif;;
+}
