@@ -25,20 +25,11 @@ const Forcss = [
 
 const ForJs = [
   {
-    name: "Learn Flexbox for free",
-    Link: "https://scrimba.com/learn/flexbox",
-    Image:require("./Asswsts/cssanimetion.png").default,
+    name: "Learn javascript",
+    Link: "https://scrimba.com/learn/learnjavascript",
+    Image:require("./Asswsts/js.png").default,
   },
-  {
-    name: "Learn CSS Grid for free",
-    Link: "https://scrimba.com/learn/cssgrid",
-    Image: require("./Asswsts/cssanimetion.png").default,
-  },
-  {
-    name: "Learn CSS Animations",
-    Link: "https://youtu.be/LCEgHntqBps",
-    Image: require("./Asswsts/cssanimetion.png").default,
-  },
+
 ]
 
 const ForReact = [
@@ -46,17 +37,9 @@ const ForReact = [
     name: "Learn React for free",
     Link: "https://scrimba.com/learn/learnreact",
     Image:require("./Asswsts/reactfree.png").default,
-  },
-  {
-    name: "Learn CSS Grid for free",
-    Link: "https://scrimba.com/learn/cssgrid",
-    Image:require("./Asswsts/cssanimetion.png").default,
-  },
-  {
-    name: "Learn CSS Animations",
-    Link: "https://youtu.be/LCEgHntqBps",
-    Image: require("./Asswsts/cssanimetion.png").default,
-  },
+  }
+
+  
 ]
 
 
