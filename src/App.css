@@ -81,8 +81,15 @@ button {
   .mycard {
     margin: 0 auto;
     width: 320px;
-    height: auto;
+    height: 300px;
+    position: relative;
    }
+   img {
+    height:133px;
+    width: 270px;
+  }
+  
+
    .seemore {
     padding:2px 3px;
     border:1px solid white;
