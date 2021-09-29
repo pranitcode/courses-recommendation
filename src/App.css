@@ -109,7 +109,7 @@ button {
     /* width: 85vw; */
     margin: 1rem auto;
     display:grid;
-    grid-template-columns:1fr;
+    grid-template-columns:1fr 1fr 1fr;
     grid-gap: 11px;
   }
 
