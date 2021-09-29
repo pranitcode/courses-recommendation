@@ -81,7 +81,7 @@ button {
   .mycard {
     margin: 0 auto;
     width: 320px;
-    height: 300px;
+    height: auto;
    }
    .seemore {
     padding:2px 3px;
